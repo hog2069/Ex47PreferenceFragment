@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="vibrate"
+        android:title="진동알림"
+        android:summary="메세지가 왔을때 진동 알림으로 받으려면 체크하세요"/>
+    <CheckBoxPreference
+        android:key="message"
+        android:title="메세지"
+        android:summary="소리로 알림을 받으려면 체크하세요"/>
+
+</PreferenceScreen>
